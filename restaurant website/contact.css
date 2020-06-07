@@ -1,0 +1,197 @@
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+}
+
+/*************************************header styling starts here*************************************/
+
+
+.header{
+      background-color: rgb(221, 213, 213);
+      width: 1349px;
+      height: 200px;
+     
+  }
+  .header .inner_header{
+      background-color: rgb(212, 212, 223);
+      width: 100%;
+      height: 100%;
+  }
+  .header h2{
+      width: 1080px;
+      text-align: center;
+      font-size: 44px;
+      font-style: italic;
+      margin-left: 140px;
+      line-height: 80px;
+      border-bottom: 1.5px solid #000;
+}
+.header .inner_header ul{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      
+} 
+.header ul li{
+      display: inline-block;
+      list-style-type: none;
+      box-sizing: border-box;
+      margin-top: 45px;
+}
+.header ul li a{
+      text-decoration: none;
+      font-size: 22px;
+      padding: 0 20px;
+      display: block;
+      color: rgb(63, 62, 62);
+      position: relative;
+      overflow: hidden;
+}
+.header ul li a:before{
+      content: "";
+      width: 35px;
+      border-bottom: 6px red solid;
+      position: absolute;
+      bottom: -3px;
+      right: 350px;
+      transition: all .9s;
+      
+}.header ul li a:hover:before{
+      right: 18px;
+}
+
+/*************************************contact form styling starts here************************************/
+.contact_form{
+      background-color: rgb(113, 143, 226);
+      width: 1250px;
+      height: 650px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+}
+.form{
+      width: 750px;
+      height: 560px;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      top: 45px;
+      left: 290px;
+}
+.form .left_side{
+      width: 360px;
+      height: 460px;
+      background-color: rgb(32, 158, 106);
+      position: relative;
+      top: 50px;
+      left: -70px;
+}
+.form .left_side img{
+      width: 100%;
+      height: 100%;
+}
+.form .right_side{
+      width: 450px;
+      height: 460px;
+      
+      position: relative;
+      top: -410px;
+      left: -5px;
+      float: right;
+}
+.form .right_side h2{
+      font-size: 35px;
+      margin-left: 40px;
+      line-height: 70px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form .right_side p{
+     margin-left: 47px;
+}
+input{
+      display: block;
+      width: 310px;
+      height: 36px;
+      margin-left: 45px;
+      margin-top: 40px;
+      border: none;
+      border-radius: 5px;
+      border-bottom: 1px solid #000;
+}
+#message{
+      height: 80px;
+}
+.form .right_side button{
+      width: 120px;
+      height: 38px;
+      border-radius: 25px;
+      box-shadow: 2px 2px 2px blue;
+      background-color: rgb(78, 132, 233);
+      margin-left: 130px;
+      margin-top: 30px;
+      border: none;
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffffff;;
+}
+
+ /********************************newsletter section styling starts here*********************************/
+
+
+ .newsletter{
+       clear: both;
+      width: 1349px;
+      height: 299px;
+      background-color: rgb(214, 166, 184);
+      position: relative;
+      background-image: url("images/signup-bg.jpg");
+      background-size: cover;
+      position: relative;
+      top: -200px;
+}
+.newsletter h3{
+      font-size: 22px;
+      line-height: 100px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 32px;color: aliceblue;
+      font-family:  sans-serif;
+}
+.email{
+      width: 380px;
+      height: 46px;
+      border: none;
+      border-radius: 5px;
+      position: relative;
+      left: 330px;
+      top: 3px;
+}
+.newsletter button{
+      width: 140px;
+      height: 46px;
+      position: relative;
+      top: -43px;
+      left: 770px;
+      border: none;
+      border-radius: 5px;
+}
+
+/***********************************footer section styling starts here*********************************/
+.footer{
+      background-image: url('signup-bg.png');
+    
+      
+      background-attachment: fixed;
+}
+.footer h4{
+      font-size: 33px;
+      text-align: center;
+      margin-top: -150px;
+}

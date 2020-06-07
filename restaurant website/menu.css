@@ -1,0 +1,430 @@
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+}
+
+/*************************************header styling starts here*************************************/
+
+
+.header{
+      background-color: rgb(221, 213, 213);
+      width: 1349px;
+      height: 200px;
+     
+  }
+  .header .inner_header{
+      background-color: rgb(212, 212, 223);
+      width: 100%;
+      height: 100%;
+  }
+  .header h2{
+      width: 1080px;
+      text-align: center;
+      font-size: 44px;
+      font-style: italic;
+      margin-left: 140px;
+      line-height: 80px;
+      border-bottom: 1.5px solid #000;
+}
+.header .inner_header ul{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      
+} 
+.header ul li{
+      display: inline-block;
+      list-style-type: none;
+      box-sizing: border-box;
+      margin-top: 45px;
+}
+.header ul li a{
+      text-decoration: none;
+      font-size: 22px;
+      padding: 0 20px;
+      display: block;
+      color: rgb(63, 62, 62);
+      position: relative;
+      overflow: hidden;
+}
+.header ul li a:before{
+      content: "";
+      width: 35px;
+      border-bottom: 6px red solid;
+      position: absolute;
+      bottom: -3px;
+      right: 350px;
+      transition: all .9s;
+      
+}.header ul li a:hover:before{
+      right: 18px;
+}
+/*************************************our_menu styling starts here*************************************/
+
+.container{
+      background-color: rgb(207, 152, 152);
+      width: 1349px;
+      height: 350px;
+      background-image: url('images/heading-bg.jpg');
+      background-size: cover;
+      
+}
+.container .content{
+      widows: 100%;
+      height: 100%;
+    
+}
+.container .content p{
+      font-size: 22px;
+      transform: translate(450px ,148px);
+      width: 35%;
+      height: 10%;
+      color: white;
+      text-align: center;
+}
+.container .content h2{
+      font-size: 62px;
+      transform: translate(479px ,150px);
+      width: 30%;
+      height: 10%;
+      color: white;
+      text-align: center;
+      position: relative;
+      top: -60px;
+}
+.container .content button{
+      font-size: 22px;
+      transform: translate(590px ,270px);
+      width: 13%;
+      height: 10%;
+      color: white;
+      text-align: center;
+      color: red;
+      border: none;
+      border-radius: 3px;
+      background-color: rgb(243, 195, 132);
+      box-shadow: 1px 1px red;
+}
+
+/***********************************breakfast menu styling starts here************************************/
+.breakfast_menu{
+      background-color: rgb(234, 248, 253);
+      width: 849px;
+      height: 450px;
+      margin-left: 250px;
+      margin-top: 90px;
+      margin-bottom: 80px;
+}
+.breakfast_menu .p1{
+     
+      width: 350px;
+      height: 100%;
+}
+.breakfast_menu img{
+      width: 100%;
+      height: 100%;
+}
+.breakfast_menu .p2{
+     
+      width: 499px;
+      height: 65px;
+      margin-top: -450px;
+      margin-left: 350px;
+}
+.breakfast_menu .p2 h2{
+      color: black;
+      font-size: 32px;
+      text-align: center;
+      padding-top: 25px;
+      letter-spacing: 5px;
+}
+.breakfast_menu .p3{
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: 20px;
+      margin-left: 361px;    
+}
+.breakfast_menu .p4 {
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: -319px;
+      margin-left: 350px;  
+      float: right;  
+}
+.breakfast_menu .b{
+      width: 236px;;
+      height: 170px;
+      margin-left: 0;
+}
+.breakfast_menu .p3 h3{
+      color: rgb(20, 19, 19);
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.breakfast_menu  .p3 p{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+.breakfast_menu .p4 h3{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.breakfast_menu  .p4 p{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+
+/***********************************dinner menu styling starts here************************************/
+.dinner-menu{
+      background-color: rgb(234, 248, 253);
+      width: 849px;
+      height: 450px;
+      margin-left: 250px;
+      margin-top: 90px;
+      margin-bottom: 80px;
+}
+.dinner-menu .d1{
+      background-color: red;
+      width: 350px;
+      height: 100%;
+      float: right;
+}
+.dinner-menu img{
+      width: 100%;
+      height: 100%;
+}
+
+.dinner-menu .d2{
+      
+      width: 499px;
+      height: 65px;
+      
+}
+.dinner-menu .d2 h2{
+      color: rgb(15, 15, 15);
+      font-size: 27px;
+      padding-top: 25px;
+      color: black;
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 5px;
+      
+}
+.dinner-menu .b{
+      width: 236px;;
+      height: 170px;
+      margin-left: 0;
+}
+
+.dinner-menu .d3{
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: 20px;
+}
+.dinner-menu .d3 h3{
+      color: rgb(17, 16, 16);
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.dinner-menu  .d3 p{
+      color: rgb(5, 5, 5);
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+
+.dinner-menu .d4{
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: -319px;  
+      float: right;
+      margin-right: 10px;  
+}
+.dinner-menu .d4 h3{
+      color: rgb(15, 15, 15);
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.dinner-menu  .d4 p{
+      color: rgb(17, 17, 17);
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+
+/***********************************lunch menu styling starts here************************************/
+.lunch_menu{
+      background-color: rgb(234, 248, 253);
+      width: 849px;
+      height: 450px;
+      margin-left: 250px;
+      margin-top: 90px;
+      margin-bottom: 80px;
+}
+.lunch_menu .c1{
+     
+      width: 350px;
+      height: 100%;
+}
+.lunch_menu img{
+      width: 100%;
+      height: 100%;
+}
+.lunch_menu .c2{
+     
+      width: 499px;
+      height: 65px;
+      margin-top: -450px;
+      margin-left: 350px;
+}
+.lunch_menu .c2 h2{
+      color: black;
+      font-size: 32px;
+      text-align: center;
+      padding-top: 25px;
+      letter-spacing: 5px;
+}
+.lunch_menu .c3{
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: 20px;
+      margin-left: 361px;    
+}
+.lunch_menu .c4 {
+      background-color: rgb(236, 206, 206);
+      width: 236px;
+      height: 320px;
+      margin-top: -319px;
+      margin-left: 350px;  
+      float: right;  
+}
+.lunch_menu .b{
+      width: 236px;;
+      height: 170px;
+      margin-left: 0;
+}
+.lunch_menu .c3 h3{
+      color: rgb(20, 19, 19);
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.lunch_menu  .c3 p{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+.lunch_menu .c4 h3{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+}
+.lunch_menu  .c4 p{
+      color: black;
+      margin-left: 14px;
+      margin-top: 5px;
+      width: 240px;
+}
+/*************************************Reservation styling starts here*********************************/
+.Reservation{
+      background-color: aqua;
+      width: 1349px;
+      height:500px;
+      margin-top: 120px;
+      position: relative;
+      background-image: url("images/book-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 10;
+}
+.Reservation .Reservation_form{
+      width: 100%;
+      height: 100%;
+      z-index: 7;
+}
+.Reservation .Reservation_form h2{
+      width: 360px;
+      font-size: 32px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: absolute;
+      left: 499px;
+      top: 90px;
+      z-index: 3;
+      color: white;
+}
+.Reservation .Reservation_form .book1{
+      width: 370px;
+      height: 290px;
+      position: absolute;
+      top: 150px;
+      left: 290px;
+      background-image: url('images/book_left_image.jpg');
+      background-size: cover;
+}
+.Reservation .Reservation_form .book2{
+      width: 399px;
+      height: 290px;
+      background-color: rgb(236, 229, 229);
+      position: absolute;
+      top: 150px;
+      left: 660px;
+}
+.Reservation .Reservation_form .book2 h3{
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 100px;
+      margin-top: 25px;
+      display: block;
+     
+}
+.Reservation .Reservation_form .book2 .b1{
+      width: 160px;
+      height: 30px;
+      position: relative;
+      left: 15px;
+      top: 15px;
+      margin: 7px;
+      border: none;
+      background-color: rgb(226, 210, 210);
+      border-bottom: 2px red solid;
+}
+.Reservation .Reservation_form .book2 button{
+      width: 160px;
+      height: 30px;
+      position: relative;
+      left: 105px;
+      top: 28px;
+      margin: 7px;
+      background: linear-gradient(rgb(209, 61, 61)  ,pink  );
+}
+
+/***********************************footer section styling starts here*********************************/
+.footer{
+      background-image: url('signup-bg.png');
+      height: 60px;
+      padding-top: 50px;
+      padding-left: 40px;
+      background-attachment: fixed;
+}
+.footer i{
+      width: 200px;
+      position: relative;
+      left: 100px;
+}

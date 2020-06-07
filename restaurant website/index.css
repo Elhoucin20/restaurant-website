@@ -1,0 +1,795 @@
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+}
+
+/*************************************header styling starts here*************************************/
+
+
+.header{
+      background-color: rgb(221, 213, 213);
+      width: 1349px;
+      height: 200px;
+     
+  }
+  .header .inner_header{
+      background-color: rgb(212, 212, 223);
+      width: 100%;
+      height: 100%;
+  }
+  .header h2{
+      width: 1080px;
+      text-align: center;
+      font-size: 44px;
+      font-style: italic;
+      margin-left: 140px;
+      line-height: 80px;
+      border-bottom: 1.5px solid #000;
+}
+.header .inner_header ul{
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      
+} 
+.header ul li{
+      display: inline-block;
+      list-style-type: none;
+      box-sizing: border-box;
+      margin-top: 45px;
+}
+.header ul li a{
+      text-decoration: none;
+      font-size: 22px;
+      padding: 0 20px;
+      display: block;
+      color: rgb(63, 62, 62);
+      position: relative;
+      overflow: hidden;
+}
+.header ul li a:before{
+      content: "";
+      width: 35px;
+      border-bottom: 6px red solid;
+      position: absolute;
+      bottom: -3px;
+      right: 350px;
+      transition: all .9s;
+      
+}.header ul li a:hover:before{
+      right: 18px;
+}
+
+/*************************************content styling starts here**************************************/
+.container{
+      background-color: rgb(207, 152, 152);
+      width: 1349px;
+      height: 450px;
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      
+}
+.container .content{
+      widows: 100%;
+      height: 100%;
+    
+}
+.container .content p{
+      font-size: 22px;
+      transform: translate(450px ,148px);
+      width: 35%;
+      height: 10%;
+      color: white;
+      text-align: center;
+}
+.container .content h2{
+      font-size: 62px;
+      transform: translate(479px ,150px);
+      width: 30%;
+      height: 10%;
+      color: white;
+      text-align: center;
+}
+.container .content button{
+      font-size: 22px;
+      transform: translate(590px ,270px);
+      width: 13%;
+      height: 10%;
+      color: white;
+      text-align: center;
+      color: red;
+      border: none;
+      border-radius: 3px;
+      background-color: rgb(243, 195, 132);
+      box-shadow: 1px 1px red;
+}
+
+/*************************************call_section styling starts here*********************************/
+.call_section{
+      background-color: rgb(243, 238, 238);
+      width: 1349px;
+      height: 499px;
+}
+.call_section .boxes{    
+      width: 1000px;
+      height: 220px;
+      transform: translate(175px ,220px);
+}
+.call_section .boxes .box{
+      width: 33%;
+      height: 220px;  
+      float: left;
+      
+}
+#box2{
+      border-radius: 5px;
+      background-color: rgb(236, 104, 81);
+      height: 300px;
+      width: 34.5%;
+      margin-top: -45px;
+      margin-left: -10px;
+
+}
+#box2 h2{
+      color: white;
+      line-height: 80px;
+      margin-left: 38px;
+}
+.inner_box{
+      width: 299px;
+      height: 110px;
+      background-color: rgb(216, 87, 64);
+      margin-left: 22px;
+      border-radius: 2px;
+}
+.inner_box p {
+      color: white;
+      font-size: 13px;
+      text-align: center;
+      line-height: 70px;
+}
+.inner_box h2{
+     font-size: 27px;
+     margin-top: -40px;
+     padding-left: 14px;
+}
+.inner_box span{
+      width: 30px;
+      height: 30px;
+      color: rgb(255, 234, 234);
+      background-color: rgb(236, 104, 81);
+      line-height: 33px;
+      margin-left: 130px;
+      padding-left: 5px;
+      border-radius: 30px;
+      display: block;
+      position: relative;
+      top: -20px;
+}
+.inner_box button{
+      position: relative;
+      top:60px;
+      left: 95px;
+      width: 110px;
+      height: 38px;
+}
+.boxes img{
+      width: 320px;
+      height: 220px;
+}
+
+
+/*************************************meals_section styling starts here*********************************/
+.meals{
+      width: 1349px;
+      height:474px;
+      background-color: rgb(243, 238, 238);
+      position: relative;
+}
+.m1 img{
+      width: 210px;
+      height: 210px;
+      background-color: blue;
+      border-radius: 300px;
+      position: absolute;
+      top: 90px;
+      left: 100px;
+      transition: all .8s;
+}
+.m1 a{
+      text-decoration: none;
+      font-size: 23px;
+      color: black;
+      width: 100px;
+      height: 60px;
+      display: block;
+      position: relative;
+      margin: 0 20px;
+      position: relative;
+      top: 346px;
+      left: 143px;
+      text-align: center;
+      transition: all 12s;
+}
+.m1 a::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 55%;
+      background: brown;
+      transition: .7s;
+      transform-origin: top;
+      transform: rotateX(270deg);
+      transform: rotateX(270deg);
+}
+.m1 :hover{
+      transform: scale(1.1);
+     
+}
+
+.m1 a:hover:before{
+      transform: rotateX(0deg);
+      border-top: 4px rgb(73, 13, 185) solid;
+}
+
+.m2 img{
+      width: 210px;
+      height: 210px;
+      background-color: blue;
+      border-radius: 300px;
+      position: absolute;
+      top: 1239px;
+      left: 420px;
+      transition: all .8s;
+}
+.m2 a{
+      text-decoration: none;
+      font-size: 23px;
+      color: black;
+      width: 100px;
+      height: 60px;
+      display: block;
+      position: relative;
+      margin: 0 20px;
+      
+      position: relative;
+      top: -132px;
+      left: 466px;
+      text-align: center;
+      transition: all 12s;
+}
+.m2 a::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 55%;
+      background: brown;
+      transition: .7s;
+      transform-origin: top;
+      transform: rotateX(270deg);
+      transform: rotateX(270deg);
+}
+.m2 :hover{
+      transform: scale(1.1);
+}
+
+.m2 a:hover:before{
+      transform: rotateX(0deg);
+      border-top: 4px rgb(73, 13, 185) solid;
+}
+
+.m3 img{
+      width: 210px;
+      height: 210px;
+      background-color: blue;
+      border-radius: 300px;
+      position: absolute;
+      top: 1239px;
+      left: 740px;
+      transition: all .8s;
+}
+.m3 a{
+      text-decoration: none;
+      font-size: 23px;
+      color: black;
+      width: 100px;
+      height: 60px;
+      display: block;
+      position: relative;
+      margin: 0 20px;
+      
+      position: relative;
+      top: -193px;
+      left: 780px;
+      text-align: center;
+      transition: all 12s;
+}
+.m3 a::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 55%;
+      background: brown;
+      transition: .7s;
+      transform-origin: top;
+      transform: rotateX(270deg);
+      transform: rotateX(270deg);
+}
+.m3 :hover{
+      transform: scale(1.1);
+     
+}  
+
+.m3 a:hover:before{
+      transform: rotateX(0deg);
+      border-top: 4px rgb(73, 13, 185) solid;
+}
+
+.m4 img{
+      width: 210px;
+      height: 210px;
+      background-color: blue;
+      border-radius: 300px;
+      position: absolute;
+      top: 1239px;
+      left: 1050px;
+      transition: all .8s;
+}
+.m4 a{
+      text-decoration: none;
+      font-size: 23px;
+      color: black;
+      width: 100px;
+      height: 60px;
+      display: block;
+      position: relative;
+      margin: 0 20px;
+     
+      position: relative;
+      top: -249px;
+      left: 1097px;
+      text-align: center;
+      transition: all 12s;
+}
+.m4 a::before{
+      content: attr(data-text);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 55%;
+      background: brown;
+      transition: .7s;
+      transform-origin: top;
+      transform: rotateX(270deg);
+      transform: rotateX(270deg);
+}
+.m4 :hover{
+      transform: scale(1.1);
+     
+}
+.m4 a:hover:before{
+      transform: rotateX(0deg);
+      border-top: 4px rgb(73, 13, 185) solid;
+}
+
+/*************************************Reservation styling starts here*********************************/
+.Reservation{
+      background-color: aqua;
+      width: 1349px;
+      height:500px;
+      margin-top: -180px;
+      position: relative;
+      background-image: url("images/book-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 10;
+}
+.Reservation .Reservation_form{
+      width: 100%;
+      height: 100%;
+      z-index: 7;
+}
+.Reservation .Reservation_form h2{
+      width: 360px;
+      font-size: 32px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: absolute;
+      left: 499px;
+      top: 90px;
+      z-index: 3;
+      color: white;
+}
+.Reservation .Reservation_form .book1{
+      width: 370px;
+      height: 290px;
+      position: absolute;
+      top: 150px;
+      left: 290px;
+      background-image: url('images/book_left_image.jpg');
+      background-size: cover;
+}
+.Reservation .Reservation_form .book2{
+      width: 399px;
+      height: 290px;
+      background-color: rgb(236, 229, 229);
+      position: absolute;
+      top: 150px;
+      left: 660px;
+}
+.Reservation .Reservation_form .book2 h3{
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 100px;
+      margin-top: 25px;
+      display: block;
+     
+}
+.Reservation .Reservation_form .book2 .b1{
+      width: 160px;
+      height: 30px;
+      position: relative;
+      left: 15px;
+      top: 15px;
+      margin: 7px;
+      border: none;
+      background-color: rgb(226, 210, 210);
+      border-bottom: 2px red solid;
+}
+.Reservation .Reservation_form .book2 button{
+      width: 160px;
+      height: 30px;
+      position: relative;
+      left: 105px;
+      top: 28px;
+      margin: 7px;
+      background: linear-gradient(rgb(209, 61, 61)  ,pink  );
+}
+.app{
+      background: rgb(245, 63, 63);
+      width: 100%;
+      height: 180px;
+      position: absolute;
+      top: 500px;
+}
+.app h1{
+      text-align: center;
+      margin-top: 30px;
+      font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.app button{
+      width: 160px;
+      height: 40px;
+      position: relative;
+      left: 585px;
+      top: 27px;
+      margin: 7px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      color: rgb(245, 3, 36);
+}
+
+/*************************************food styling starts here*********************************/
+.food{
+      background-color: rgb(243, 238, 238);
+      width: 1349px;
+      height:800px;
+      margin-top: 180px;
+      position: relative;
+}
+.food h1{
+      color: red;
+      position: relative;
+      top:130px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.food .f1{
+      background-color: rgb(240, 178, 178);
+      width: 340px;
+      height: 400px;
+      position: absolute;
+      top: 230px;
+      left: 70px;
+      word-wrap: break-word;
+      position: relative;
+}
+.food .f1 img{
+      width: 215px;border-radius: 10px;margin-left: 56px; margin-top: 10px;border-radius: 200px;
+      height: 210px;
+}
+.food .f1 p{
+      width: 290px;
+      margin-left: 16px; margin-top: 4px;font-size: 18px;
+      text-align: center;
+}
+
+.food .i1{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(196, 196, 235);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 1s;
+      box-sizing: border-box;
+      transform-origin: top;
+      overflow: hidden;
+      border-radius: 5px;
+}
+.food .i1 .img1{
+      width: 215px;border-radius: 10px;margin-left: 61px; margin-top: 27px;border-radius: 200px;
+      height: 210px;
+}
+.food .i1 h2{
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      z-index: 5;
+      margin-top: 25px;
+      margin-left: -8px;
+      letter-spacing: 7px;
+}
+.food .f1:hover .i1 {
+      height: 50px;
+}
+.food .f1:hover  .img1{
+     display: none;
+ }
+.food .f1:hover  h2{
+      color: red;
+      margin-top: 3px; 
+ }
+
+ .food .f2{
+      background-color: rgb(240, 178, 178);
+      width: 340px;
+      height: 400px;
+      position: absolute;
+      top: -165px;
+      left: 509px;
+      word-wrap: break-word;
+      position: relative;
+}
+.food .f2 img{
+      width: 215px;border-radius: 10px;margin-left: 56px; margin-top: 10px;border-radius: 200px;
+      height: 210px;
+}
+.food .f2 p{
+      width: 290px;
+      margin-left: 16px; margin-top: 4px;font-size: 18px;
+      text-align: center;
+}
+
+.food .i2{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(196, 196, 235);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 1s;
+      box-sizing: border-box;
+      transform-origin: top;
+      overflow: hidden;
+      border-radius: 5px;
+}
+.food .i2 .img1{
+      width: 215px;border-radius: 10px;margin-left: 61px; margin-top: 27px;border-radius: 200px;
+      height: 210px;
+}
+.food .i2 h2{
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 25px;
+      margin-left: -8px;
+      letter-spacing: 7px;
+}
+.food .f2:hover .i2 {
+      height: 50px;
+}
+.food .f2:hover  .img1{
+      display: none;
+  }
+.food .f2:hover  h2{
+      color: red;
+      margin-top: 3px; 
+ }
+
+ 
+ .food .f3{
+      background-color: rgb(240, 178, 178);
+      width: 340px;
+      height: 400px;
+      position: absolute;
+      top: -565px;
+      left: 950px;
+      word-wrap: break-word;
+      position: relative;
+}
+.food .f3 img{
+      width: 215px;border-radius: 10px;margin-left: 56px; margin-top: 10px;border-radius: 200px;
+      height: 210px;
+}
+.food .f3 p{
+      width: 290px;
+      margin-left: 16px; margin-top: 4px;font-size: 18px;
+      text-align: center;
+}
+
+.food .i3{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(196, 196, 235);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 1s;
+      box-sizing: border-box;
+      transform-origin: top;
+      overflow: hidden;
+      border-radius: 5px;
+}
+.food .i3 .img1{
+      width: 215px;border-radius: 10px;margin-left: 61px; margin-top: 27px;border-radius: 200px;
+      height: 210px;
+}
+.food .i3 h2{
+      color: white;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 25px;
+      margin-left: -8px;
+      letter-spacing: 7px;
+}
+.food .f3:hover .i3 {
+      height: 50px;
+}.food .f3:hover  .img1{
+      display: none;
+  }
+.food .f3:hover  h2{
+      color: red;
+      margin-top: 3px; 
+ }
+
+ /*************************************our-blog section styling starts here*******************************/
+
+ .our_blog{
+       width: 1349px;
+       height: 700px;
+       background-color: rgb(222, 213, 240);
+       position: relative;
+ }
+ .our_blog h2{
+       width: 210px;
+       height: 50px;
+       display: flex;justify-content: center;line-height: 45px;
+       position: absolute;
+       top: 50px;
+       left: 570px;
+       font-size: 30px;
+       font-weight: bold;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-transform: capitalize;
+       border-bottom: 1.3px solid #000;
+ }
+ .our_blog .blog-content{
+       background-color: aliceblue;
+       width: 100%;
+       height: 20%; 
+       display: grid;
+       grid-template-columns: 600px 600px;
+       grid-column-gap: 1em;
+ }
+ .our_blog .blog-content .blog1 ,.blog2 ,.blog3 ,.blog4{
+       width: 600px;
+       height: 230px;
+       background-color: rgb(245, 245, 245);
+       margin-top: 170px;
+       margin-left: 60px;
+ }
+ .blog3 ,.blog4{
+       position: relative;
+       top:-130px;
+ }
+ .our_blog .blog-content img{
+       width: 280px;
+       height: 230px;
+       display: inline;
+ }
+ .our_blog .blog-content h3{
+       position: relative;
+       top: -200px;
+       left: 8px;
+       font-size: 22px;
+       display: inline;
+       color:rgb(10, 10, 10);
+
+ }
+ .blog-content p{
+       width: 310px;
+       height: 230px;
+       position: relative;
+       top: -190px;
+       left: 288px;
+       color:rgb(8, 8, 8);
+ }
+ .blog-content a{
+      position: relative;
+      top: -263px;
+      left: 290px;
+      color:white;
+      font-size: 18px;
+      color: blue;
+ }
+ .blog-content a:active{
+       border: none;
+ }
+
+ /********************************newsletter section styling starts here*********************************/
+
+.newsletter{
+      width: 1349px;
+      height: 250px;
+      background-color: rgb(214, 166, 184);
+      position: relative;
+      background-image: url("images/signup-bg.jpg");
+      background-size: cover;
+}
+.newsletter h3{
+      font-size: 22px;
+      line-height: 100px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 32px;color: aliceblue;
+      font-family:  sans-serif;
+}
+.email{
+      width: 380px;
+      height: 46px;
+      border: none;
+      border-radius: 5px;
+      position: relative;
+      left: 420px;
+      top: 32px;
+}
+.newsletter button{
+      width: 140px;
+      height: 46px;
+      position: relative;
+      top: 32px;
+      left: 440px;
+      border: none;
+      border-radius: 5px;
+}
+
+ /***********************************footer section styling starts here*********************************/
+ .footer{
+       background-image: url('signup-bg.png');
+       height: 60px;
+       padding-top: 50px;
+       padding-left: 40px;
+       background-attachment: fixed;
+ }
+ .footer i{
+       width: 200px;
+       position: relative;
+       left: 100px;
+ }
+ 
